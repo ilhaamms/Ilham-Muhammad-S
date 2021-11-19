@@ -1,0 +1,47 @@
+.Navbar {
+    background-color: #F4A442;
+    padding: 1em;
+}
+
+.Navbar ul li {
+    display: inline;
+    padding: 1em;
+}
+
+.Navbar ul li h4 {
+    display: inline;
+    color: #EADEB8;
+    font-size: x-large;
+}
+
+.Navbar ul li .ActivedHome {
+    color: white;
+}
+
+.ActivedHome, .WLButton {
+    float: right;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.ActivedWL, .Home {
+    float: right;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.Navbar ul li .ActivedWL {
+    color: white;
+}
+
+.Navbar ul li a {
+    cursor: pointer;
+    display: inline;
+    color: gray;
+    text-decoration: none;
+}
+
+.Navbar ul li a:hover {
+    color: white;
+}
+
